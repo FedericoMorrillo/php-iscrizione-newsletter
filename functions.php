@@ -17,7 +17,7 @@ function validazione()
 function mostraMessaggioSuccesso($email)
 {
     //stampiamo all' interno di un alert
-    echo '<div class="alert alert-success" role="alert">
+    echo '<div class="alert alert-success bg-success" role="alert">
             Grazie per esserti iscritto alla Newsletter con l\'indirizzo email: ' . $email . '
           </div>';
 }
@@ -25,7 +25,7 @@ function mostraMessaggioSuccesso($email)
 function mostraMessaggioErrore()
 {
     //stampiamo all' interno di un alert
-    echo '<div class="alert alert-danger" role="alert">
+    echo '<div class="alert alert-danger bg-warning" role="alert">
             L\'indirizzo email non è valido. Assicurati di inserire un indirizzo valido.
           </div>';
 }
